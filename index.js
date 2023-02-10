@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-var socket = new WebSocket("ws://localhost:8555/");
+var socket = new WebSocket("wss://rpc.cryptosnowprince.com/ws/");
 
 socket.onopen = function (event) {
   console.log("WebSocket connection established:", "event");
