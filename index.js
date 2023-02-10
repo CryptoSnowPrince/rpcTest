@@ -1,6 +1,8 @@
 const WebSocket = require('ws');
 
-var socket = new WebSocket("wss://rpc.cryptosnowprince.com/ws/");
+// var socket = new WebSocket("wss://rpc.cryptosnowprince.com/ws/");
+// var socket = new WebSocket("wss://rpc.cryptosnowprince.com/ws56/");
+var socket = new WebSocket("wss://rpc.cryptosnowprince.com/ws97/");
 
 socket.onopen = function (event) {
   console.log("WebSocket connection established:", "event");
